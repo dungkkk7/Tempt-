@@ -1,0 +1,515 @@
+PS C:\Users\dungv\Downloads\bininst1> frida-trace -f bininst1.exe -i GetProcessHeap -i HeapAlloc -i MessageBoxW -i Sleep
+Spawning `bininst1.exe`...
+Instrumenting...
+GetProcessHeap: Auto-generated handler at "C:\Users\dungv\Downloads\bininst1\__handlers__\KERNEL32.DLL\GetProcessHeap.js"
+Sleep: Loaded handler at "C:\Users\dungv\Downloads\bininst1\__handlers__\KERNEL32.DLL\Sleep.js"
+GetProcessHeap: Auto-generated handler at "C:\Users\dungv\Downloads\bininst1\__handlers__\KERNELBASE.dll\GetProcessHeap.js"
+HeapAlloc: Auto-generated handler at "C:\Users\dungv\Downloads\bininst1\__handlers__\KERNELBASE.dll\HeapAlloc.js"
+Sleep: Loaded handler at "C:\Users\dungv\Downloads\bininst1\__handlers__\KERNELBASE.dll\Sleep.js"
+MessageBoxW: Auto-generated handler at "C:\Users\dungv\Downloads\bininst1\__handlers__\USER32.dll\MessageBoxW.js"
+Started tracing 6 functions. Web UI available at http://localhost:63258/
+Hi, I have the flag for you just right here!
+I'll just take a quick nap before I print it out for you, should only take me a decade or so!
+zzzzzzzz....
+Ok, I'm Up! The flag is: cGljb0NURnt3NGtlX20zX3VwX3cxdGhfZnIxZGFfZjI3YWNjMzh9
+           /* TID 0xde4 */
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  HeapAlloc()
+     8 ms  GetProcessHeap()
+     8 ms  HeapAlloc()
+     8 ms  GetProcessHeap()
+     8 ms  GetProcessHeap()
+     8 ms  HeapAlloc()
+     8 ms  GetProcessHeap()
+     8 ms  HeapAlloc()
+     8 ms  GetProcessHeap()
+     8 ms  GetProcessHeap()
+     8 ms  HeapAlloc()
+     8 ms  GetProcessHeap()
+     8 ms  GetProcessHeap()
+     8 ms  HeapAlloc()
+     8 ms  GetProcessHeap()
+     9 ms  GetProcessHeap()
+     9 ms  HeapAlloc()
+     9 ms  GetProcessHeap()
+     9 ms  GetProcessHeap()
+     9 ms  GetProcessHeap()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+           /* TID 0xc40 */
+    10 ms  HeapAlloc()
+           /* TID 0x512c */
+    10 ms  HeapAlloc()
+           /* TID 0xc40 */
+    10 ms  HeapAlloc()
+           /* TID 0x512c */
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+           /* TID 0xc40 */
+    10 ms  HeapAlloc()
+           /* TID 0x512c */
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+           /* TID 0xc40 */
+    10 ms  HeapAlloc()
+           /* TID 0x512c */
+    10 ms  HeapAlloc()
+           /* TID 0xc40 */
+    10 ms  HeapAlloc()
+           /* TID 0x4fc8 */
+    10 ms  HeapAlloc()
+    10 ms  HeapAlloc()
+           /* TID 0xde4 */
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    11 ms  HeapAlloc()
+    12 ms  HeapAlloc()
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    18 ms  Sleep called with: -2 ms
+    18 ms  Sleep time overridden to 0ms
+    18 ms     | Sleep called with: 0 ms
+    18 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    19 ms     | Sleep called with: 0 ms
+    19 ms     | Sleep time overridden to 0ms
+    19 ms  Sleep called with: -2 ms
+    19 ms  Sleep time overridden to 0ms
+    20 ms     | Sleep called with: 0 ms
+    20 ms     | Sleep time overridden to 0ms
+    20 ms  Sleep called with: -2 ms
+    20 ms  Sleep time overridden to 0ms
+    20 ms     | Sleep called with: 0 ms
+    20 ms     | Sleep time overridden to 0ms
+    20 ms  Sleep called with: -2 ms
+    20 ms  Sleep time overridden to 0ms
+    20 ms     | Sleep called with: 0 ms
+    20 ms     | Sleep time overridden to 0ms
+    20 ms  Sleep called with: -2 ms
+    20 ms  Sleep time overridden to 0ms
+    20 ms     | Sleep called with: 0 ms
+    20 ms     | Sleep time overridden to 0ms
+Process terminated
+PS C:\Users\dungv\Downloads\bininst1>
+
+
+
+"Chúc mừng bạn! Flag đã xuất hiện: cGljb0NURnt3NGtlX20zX3VwX3cxdGhfZnIxZGFfZjI3YWNjMzh9. Mình giải mã Base64 và được:\
+ picoCTF{w4ke_m3_up_w1th_fr1da_f27acc38}
