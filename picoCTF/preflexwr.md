@@ -1,6 +1,3 @@
-Dưới đây là lời giải thích bằng tiếng Việt về cách giải bài toán để tìm ra flag của picoCTF dựa trên hàm `check` được cung cấp. Mục tiêu là hiểu cách hoạt động của hàm và tìm chuỗi đầu vào (flag) sao cho hàm trả về giá trị 0, tức là chuỗi hợp lệ.
-
----
 
 ### **Bước 1: Hiểu yêu cầu của bài toán**
 Hàm `check` nhận một chuỗi `input` và trả về một giá trị 64-bit. Đầu tiên, hàm kiểm tra độ dài của chuỗi:
