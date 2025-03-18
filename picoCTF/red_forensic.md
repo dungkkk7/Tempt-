@@ -1,4 +1,4 @@
-Dưới đây là write-up chi tiết về cách giải mã thông điệp ẩn trong ảnh `red.png` bằng công cụ **zsteg**, dựa trên đầu ra mà bạn cung cấp.
+
 
 ---
 
