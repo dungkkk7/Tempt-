@@ -100,7 +100,4 @@ b1,rgba,lsb,xy      .. text: "cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXz
 4. **Kiểm tra và lấy flag**:
    - Xác nhận chuỗi giải mã phù hợp với định dạng flag của picoCTF.
 
-### Kết luận
-Sử dụng công cụ **zsteg**, chúng ta đã phát hiện dữ liệu ẩn trong ảnh `red.png` và giải mã thành công chuỗi Base64 để lấy được flag: `picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_}`. Các thông tin khác trong đầu ra (như bài thơ hoặc các file OpenPGP) không liên quan trực tiếp đến flag, và sự lặp lại của chuỗi mã hóa không ảnh hưởng đến kết quả cuối cùng.
-
-Hy vọng write-up này giúp bạn hiểu rõ cách giải quyết thử thách!
+!
